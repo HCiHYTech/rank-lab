@@ -6,5 +6,80 @@
     "repository": "https://github.com/nateherkai/scroll-craft",
     "pinnedCommit": "e95798551874854cef6dd3996ec7de1364a82bbd"
   },
-  "records": []
+  "records": [
+    {
+      "classification": "Copied unchanged",
+      "upstreamSource": "plugins/nateherk-design/skills/scrollcraft/engine/scrollcraft.js",
+      "upstreamCommit": "e95798551874854cef6dd3996ec7de1364a82bbd",
+      "borrowed": "Scrollcraft browser runtime engine.",
+      "rankLabChanges": "Retained substantially as-is in the first Codex runtime port.",
+      "affectedFiles": [
+        "scrollcraft/engine/scrollcraft.js"
+      ]
+    },
+    {
+      "classification": "Copied unchanged",
+      "upstreamSource": "plugins/nateherk-design/skills/scrollcraft/engine/scrollcraft.css",
+      "upstreamCommit": "e95798551874854cef6dd3996ec7de1364a82bbd",
+      "borrowed": "Scrollcraft runtime stylesheet.",
+      "rankLabChanges": "Retained substantially as-is in the first Codex runtime port.",
+      "affectedFiles": [
+        "scrollcraft/engine/scrollcraft.css"
+      ]
+    },
+    {
+      "classification": "Copied unchanged",
+      "upstreamSource": "plugins/nateherk-design/skills/scrollcraft/references/{assets,devices,feel,taste,uniqueness,verify,worldflight,worlds}.md; references/{device-diag,template}.html",
+      "upstreamCommit": "e95798551874854cef6dd3996ec7de1364a82bbd",
+      "borrowed": "Scrollcraft reference material and HTML diagnostics/template.",
+      "rankLabChanges": "Retained as upstream reference material; examples remain reference-only and are not Rank Lab compositions.",
+      "affectedFiles": [
+        "scrollcraft/references/assets.md",
+        "scrollcraft/references/devices.md",
+        "scrollcraft/references/feel.md",
+        "scrollcraft/references/taste.md",
+        "scrollcraft/references/uniqueness.md",
+        "scrollcraft/references/verify.md",
+        "scrollcraft/references/worldflight.md",
+        "scrollcraft/references/worlds.md",
+        "scrollcraft/references/device-diag.html",
+        "scrollcraft/references/template.html"
+      ]
+    },
+    {
+      "classification": "Copied unchanged",
+      "upstreamSource": "plugins/nateherk-design/skills/scrollcraft/scripts/{doctor,workspace,serve,shoot,worldflight-assert,kie}.mjs",
+      "upstreamCommit": "e95798551874854cef6dd3996ec7de1364a82bbd",
+      "borrowed": "Scrollcraft operational and verification scripts.",
+      "rankLabChanges": "Retained substantially as-is pending application-level integration; no project-specific behaviour is added in this port.",
+      "affectedFiles": [
+        "scrollcraft/scripts/doctor.mjs",
+        "scrollcraft/scripts/workspace.mjs",
+        "scrollcraft/scripts/serve.mjs",
+        "scrollcraft/scripts/shoot.mjs",
+        "scrollcraft/scripts/worldflight-assert.mjs",
+        "scrollcraft/scripts/kie.mjs"
+      ]
+    },
+    {
+      "classification": "Adapted for cross-platform use",
+      "upstreamSource": "plugins/nateherk-design/skills/scrollcraft/scripts/encode.sh",
+      "upstreamCommit": "e95798551874854cef6dd3996ec7de1364a82bbd",
+      "borrowed": "The upstream media encoding intent and target characteristics.",
+      "rankLabChanges": "Created Rank Lab-original Node implementation for Windows, macOS, Linux, and Codex environments; it discovers ffmpeg from SCROLLCRAFT_FFMPEG or PATH and emits desktop/mobile H.264 scrub variants.",
+      "affectedFiles": [
+        "scrollcraft/scripts/encode.mjs"
+      ]
+    },
+    {
+      "classification": "Rank Lab-original",
+      "upstreamSource": "N/A",
+      "upstreamCommit": "e95798551874854cef6dd3996ec7de1364a82bbd",
+      "borrowed": "No upstream code or prose beyond attribution and the documented encoding intent.",
+      "rankLabChanges": "Added Rank Lab runtime-port usage documentation and integration map.",
+      "affectedFiles": [
+        "scrollcraft/README.md"
+      ]
+    }
+  ]
 }

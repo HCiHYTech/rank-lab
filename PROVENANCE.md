@@ -9,7 +9,7 @@
 | Repository | https://github.com/nateherkai/scroll-craft |
 | License | MIT |
 | Pinned commit | `e95798551874854cef6dd3996ec7de1364a82bbd` |
-| Integration status | Planned Codex adaptation; upstream code not yet vendored into this workspace |
+| Integration status | Runtime port vendored at `scrollcraft/`; copied and adapted paths are recorded in `provenance/borrowed-elements.json` |
 
 ## Upstream examples — reference only
 
